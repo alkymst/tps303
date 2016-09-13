@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f1f04b1e51a7de0553cb5e17c177ffad",
-    "content-hash": "10a5ff78ab5bb8161f796c018b7a6cc0",
+    "hash": "e3e3c795a0e8799870e52807a7621e29",
+    "content-hash": "e6f23a8754789a964516e56101a29ad1",
     "packages": [
         {
             "name": "composer/installers",
@@ -340,6 +340,26 @@
                 "environment"
             ],
             "time": "2016-09-01 10:05:43"
+        },
+        {
+            "name": "wpackagist-plugin/age-verify",
+            "version": "0.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/age-verify/",
+                "reference": "tags/0.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/age-verify.0.3.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/age-verify/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
