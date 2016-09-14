@@ -41,6 +41,7 @@
     "roots/wp-password-bcrypt": "1.0.0",
     "wpackagist-plugin/woocommerce": "2.6.4",
     "wpackagist-plugin/woocommerce-gateway-stripe": "3.0.2",
+    "wpackagist-plugin/contact-form-7": "4.5",
     "wpackagist-plugin/age-verify": "0.3.0"
   },
   "require-dev": {
